@@ -1,0 +1,25 @@
+.progress_item {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+}
+
+.progress_item .progress_item_pro {
+    width: 90%;
+    height: 5px;
+}
+
+.progress_item .progress_item_percent {
+    position: relative;
+    width: 10%;
+}
+
+.progress_item .progress_item_percent p {
+    position: absolute;
+    top: -12px;
+    right: 0px;
+    
+}
+

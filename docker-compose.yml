@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  fe_sheet_sssmarket:
+    build: .
+    container_name: FE_SHEET_SSSMARKET
+    ports:
+      - "8280:3000"
+
+    
